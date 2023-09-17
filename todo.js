@@ -178,12 +178,3 @@ todoList.appendChild(listItem);
 todoInput.value=""; //input yazı ekledikten sonra boşalsın diye
 
 }
-
-
-import fetch from "node-fetch"; //node fetch kütüphanesi
-
-async function getData(){
-    const data=await fetch("https://jsonplaceholder.typicode.com/users");
-    console.log(data);
-}
-getData();
